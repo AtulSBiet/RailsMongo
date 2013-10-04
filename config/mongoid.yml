@@ -84,7 +84,7 @@ production:
     default:
        database: t                    # Database Name                    
        hosts: 
-         -10.0.2.12:40477                          # VM Ip  and VM Port                            
+         - 10.0.2.12:40477                          # VM Ip  and VM Port                            
        username: avuxdpj8izsqqrrj                        # User Name     
        password: 'eclrsu49fk7lzwulidl8ae3ig18sd4w0'                         # Password
        options:
