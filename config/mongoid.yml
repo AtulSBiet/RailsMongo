@@ -82,11 +82,11 @@ test:
 production:
   sessions:
     default:
-       database: < database name >                    # Database Name                    
+       database: t                    # Database Name                    
        hosts: 
-         - < 10.0.2.12 >:< 40477 >                          # VM Ip  and VM Port                            
-       username: < avuxdpj8izsqqrrj >                        # User Name     
-       password: < eclrsu49fk7lzwulidl8ae3ig18sd4w0 >                         # Password
+         -10.0.2.12:40477                          # VM Ip  and VM Port                            
+       username: avuxdpj8izsqqrrj                        # User Name     
+       password: 'eclrsu49fk7lzwulidl8ae3ig18sd4w0'                         # Password
        options:
          consistency: :strong
          # In the test environment we lower the retries and retry interval to
