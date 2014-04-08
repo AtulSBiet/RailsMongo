@@ -84,9 +84,9 @@ production:
     default:
        database: t                    # Database Name                    
        hosts: 
-         - 192.168.2.202:18715                          # VM Ip  and VM Port                            
-       username: aa17p3a66j4nd485                        # User Name     
-       password: 'atv70zx1p61suu51wbvt6u3he51uk8bs'                         # Password
+         - 192.168.2.53:7655                          # VM Ip  and VM Port                            
+       username: a584mx32xi92tebi                        # User Name     
+       password: 'am3o8djg2deuhiddfgb6nrsthj3c62es'                         # Password
        options:
          consistency: :strong
          # In the test environment we lower the retries and retry interval to
